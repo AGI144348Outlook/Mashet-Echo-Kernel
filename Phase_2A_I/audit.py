@@ -1,3 +1,4 @@
+from .invariants import invariants_declared
 from .algebraic_state import ALGEBRAIC_STATE, STATE_DECLARATION
 from .registries import RESERVED_SYMBOL_DOMAINS
 
@@ -14,3 +15,5 @@ def run_phase_2A_I_audit():
             raise AssertionError(
                 f"Reserved domain '{domain}' has been populated"
             )
+            if not invariants_declared():
+        raise AssertionError("Structural invariants not declared")
