@@ -105,3 +105,9 @@ It is not intended as an end-user application.
 This repository defines a kernel only.
 Any higher-layer systems must respect phase boundaries and invariants
 defined herein.
+
+
+Certain subject-capable anchors are instantiated together with a fixed set of bound object substrates.
+The spatial orientation of this constellation encodes jurisdictional flow constraints.
+These bindings do not perform actions but establish ownership and eligibility.
+A subject anchor becomes operational only after a Phase 5 dynamic initialization sequence binds an authorized verbal operator set within a valid environment.
