@@ -18,3 +18,11 @@ def run_phase_2A_I_audit():
             )
             if not invariants_declared():
         raise AssertionError("Structural invariants not declared")
+def audit_glyph_inertness(glyph_sets):
+    for glyphs in glyph_sets:
+        for name, glyph in glyphs.items():
+            illegal = set(glyph.keys()) - ALLOWED_GLYPH_FIELDS
+            if illegal:
+                raise AssertionError(
+                    f"Glyph {name} declares illegal fields: {illegal}"
+                )
