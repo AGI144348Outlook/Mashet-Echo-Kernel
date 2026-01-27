@@ -1,1 +1,165 @@
+"""
+Indus Valley Script — Inert Glyph Substrate (Phase 2B-I)
 
+All glyphs are declared as static structural forms only.
+No semantics, phonetics, agency, or process is permitted.
+"""
+
+INDUS_GLYPHS = {
+
+    "UNICORN": {
+        "id": "INDUS_UNICORN",
+        "stroke_count": 6,
+        "stroke_types": {"line", "curve"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"front"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "BULL": {
+        "id": "INDUS_BULL",
+        "stroke_count": 6,
+        "stroke_types": {"line", "curve"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"front"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "HUMAN": {
+        "id": "INDUS_HUMAN",
+        "stroke_count": 4,
+        "stroke_types": {"line"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"front"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "WHEEL": {
+        "id": "INDUS_WHEEL",
+        "stroke_count": 4,
+        "stroke_types": {"curve"},
+        "symmetry": "radial",
+        "orientation": "rotatable",
+        "attachment_faces": {"axial"},
+        "closedness": "closed",
+        "interior_space": "bounded",
+        "planarity": "2D",
+    },
+
+    "JAR": {
+        "id": "INDUS_JAR",
+        "stroke_count": 3,
+        "stroke_types": {"curve", "line"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"top"},
+        "closedness": "closed",
+        "interior_space": "bounded",
+        "planarity": "2D",
+    },
+
+    "FISH": {
+        "id": "INDUS_FISH",
+        "stroke_count": 2,
+        "stroke_types": {"curve"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"side"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "TREE": {
+        "id": "INDUS_TREE",
+        "stroke_count": 3,
+        "stroke_types": {"line"},
+        "symmetry": "bilateral",
+        "orientation": "vertical",
+        "attachment_faces": {"bottom"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "MOUNTAIN": {
+        "id": "INDUS_MOUNTAIN",
+        "stroke_count": 3,
+        "stroke_types": {"angle"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"bottom"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "CROSS": {
+        "id": "INDUS_CROSS",
+        "stroke_count": 2,
+        "stroke_types": {"line"},
+        "symmetry": "orthogonal",
+        "orientation": "fixed",
+        "attachment_faces": {"center"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "TRIDENT": {
+        "id": "INDUS_TRIDENT",
+        "stroke_count": 3,
+        "stroke_types": {"line"},
+        "symmetry": "bilateral",
+        "orientation": "vertical",
+        "attachment_faces": {"bottom"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+
+    "CIRCLE": {
+        "id": "INDUS_CIRCLE",
+        "stroke_count": 1,
+        "stroke_types": {"curve"},
+        "symmetry": "radial",
+        "orientation": "fixed",
+        "attachment_faces": set(),
+        "closedness": "closed",
+        "interior_space": "bounded",
+        "planarity": "2D",
+    },
+
+    "SQUARE": {
+        "id": "INDUS_SQUARE",
+        "stroke_count": 4,
+        "stroke_types": {"line"},
+        "symmetry": "orthogonal",
+        "orientation": "fixed",
+        "attachment_faces": {"edge"},
+        "closedness": "closed",
+        "interior_space": "bounded",
+        "planarity": "2D",
+    },
+
+    "COMB": {
+        "id": "INDUS_COMB",
+        "stroke_count": 5,
+        "stroke_types": {"line"},
+        "symmetry": "bilateral",
+        "orientation": "fixed",
+        "attachment_faces": {"bottom"},
+        "closedness": "open",
+        "interior_space": "none",
+        "planarity": "2D",
+    },
+}
