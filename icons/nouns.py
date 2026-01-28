@@ -138,3 +138,94 @@ ICON_NOUNS = {
         "planarity": "2D",
     },
 }
+# --- Ritual / anchoring nouns (inert) ---
+
+    "ALTAR": {
+        "id": "ICON_ALTAR",
+        "faces": {"top", "bottom"},
+        "symmetry": "radial",
+        "orientation": "fixed",
+        "modularity": "platform",
+        "interior_space": "none",
+        "stackable": False,
+        "planarity": "3D",
+    },
+
+    "ANCHOR": {
+        "id": "ICON_ANCHOR",
+        "faces": {"center"},
+        "symmetry": "radial",
+        "orientation": "fixed",
+        "modularity": "point",
+        "interior_space": "none",
+        "stackable": False,
+        "planarity": "3D",
+    },
+# --- Domain / stratification nouns (inert) ---
+
+    "DOMAIN": {
+        "id": "ICON_DOMAIN",
+        "faces": {"boundary"},
+        "symmetry": "orthogonal",
+        "orientation": "fixed",
+        "modularity": "region",
+        "interior_space": "bounded",
+        "stackable": False,
+        "planarity": "2D",
+    },
+
+    "LAYER": {
+        "id": "ICON_LAYER",
+        "faces": {"top", "bottom"},
+        "symmetry": "orthogonal",
+        "orientation": "vertical",
+        "modularity": "slice",
+        "interior_space": "none",
+        "stackable": True,
+        "planarity": "2D",
+    },
+
+    "STRATUM": {
+        "id": "ICON_STRATUM",
+        "faces": {"top", "bottom"},
+        "symmetry": "orthogonal",
+        "orientation": "vertical",
+        "modularity": "slice",
+        "interior_space": "bounded",
+        "stackable": True,
+        "planarity": "3D",
+    },
+# --- Pathway / conduction-shaped nouns (inert) ---
+
+    "PATH": {
+        "id": "ICON_PATH",
+        "faces": {"entry", "exit"},
+        "symmetry": "linear",
+        "orientation": "fixed",
+        "modularity": "segment",
+        "interior_space": "none",
+        "stackable": True,
+        "planarity": "2D",
+    },
+
+    "CHANNEL": {
+        "id": "ICON_CHANNEL",
+        "faces": {"entry", "exit"},
+        "symmetry": "linear",
+        "orientation": "fixed",
+        "modularity": "conduit",
+        "interior_space": "bounded",
+        "stackable": True,
+        "planarity": "3D",
+    },
+
+    "NODE": {
+        "id": "ICON_NODE",
+        "faces": {"connection"},
+        "symmetry": "radial",
+        "orientation": "fixed",
+        "modularity": "junction",
+        "interior_space": "none",
+        "stackable": False,
+        "planarity": "3D",
+    },
