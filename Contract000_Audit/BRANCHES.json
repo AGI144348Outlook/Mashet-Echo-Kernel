@@ -1,0 +1,18 @@
+{
+  "schema": "contract000.branch-map.v1",
+  "repository": "AGI144348Outlook/Mashet-Echo-Kernel",
+  "source_snapshot_date": "2026-11-15",
+  "maintenance_branch": "main",
+  "excluded_root": "Contract000_Audit",
+  "branches": [
+    {
+      "id": 0,
+      "name": "main",
+      "folder": "main",
+      "source_commit": "13b56d20510c075f0684e99392ad56f9f060f59f",
+      "source_tree": "13b56d20510c075f0684e99392ad56f9f060f59f",
+      "entry": "main/protocols/Contract_ReadMe/Contract000_readme.md",
+      "next_branch_id": 0
+    }
+  ]
+}
