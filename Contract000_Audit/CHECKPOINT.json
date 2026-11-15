@@ -4,8 +4,12 @@
   "branch_index": 0,
   "category_index": 0,
   "next_directory": "main/protocols/Contract_ReadMe/Contract000_readme.md",
-  "directory_status": "GENERATED_FROM_PINNED_GITHUB_TREES",
-  "content_status": "NOT_AUDITED",
-  "last_run_id": null,
+  "directory_status": "VERIFIED_PINNED_AND_CURRENT_TREE_MATCH",
+  "content_status": "PARTIAL",
+  "current_file": "Code4.0",
+  "next_line": 181,
+  "source_commit": "13b56d20510c075f0684e99392ad56f9f060f59f",
+  "source_blob": "4073b17726090e7d538992a20daabd5134b197ce",
+  "last_run_id": "automation-turn-11-2026-11-15T14:04:53-06:00 (scheduler UUID unavailable)",
   "updated": "2026-11-15"
 }

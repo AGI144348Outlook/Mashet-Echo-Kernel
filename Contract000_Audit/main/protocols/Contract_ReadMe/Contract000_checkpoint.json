@@ -1,15 +1,34 @@
 {
   "schema": "contract000.audit-checkpoint.v1",
   "repository": "AGI144348Outlook/Mashet-Echo-Kernel",
-  "represented_branch": "RESOLVE_FROM_PARENT_BRANCH_FOLDER",
+  "represented_branch": "main",
   "category": "protocols",
-  "phase": "VERIFY_DIRECTORY",
-  "directory_status": "GENERATED_FROM_PINNED_GITHUB_TREES",
-  "content_status": "NOT_AUDITED",
+  "phase": "READ_SOURCE_FILE",
+  "directory_status": "VERIFIED_PINNED_AND_CURRENT_TREE_MATCH",
+  "content_status": "PARTIAL",
   "last_completed_file": null,
-  "within_file_position": null,
+  "current_file": "Code4.0",
+  "within_file_position": {
+    "unit": "line",
+    "last_read_line": 180,
+    "next_line": 181,
+    "total_lines": "UNKNOWN"
+  },
+  "source_pin": {
+    "branch": "main",
+    "commit": "13b56d20510c075f0684e99392ad56f9f060f59f",
+    "path": "Code4.0",
+    "blob": "4073b17726090e7d538992a20daabd5134b197ce",
+    "size_bytes": 359272
+  },
   "findings": [],
-  "blockers": [],
+  "notes": [
+    "Read lines 1-180 only; CSS/HTML chat, glyph/substrate UI observed; full file not read, no protocol discovery promoted.",
+    "Pinned and current main source tree matched 30 blobs and 9 folders; maintenance tree excluded."
+  ],
+  "blockers": [
+    "Issue #1 comment creation not exposed by connected GitHub actions; no tests performed."
+  ],
   "next_directory": "../../skills/Contract_ReadMe/Contract000_readme.md",
   "updated": "2026-11-15"
 }
